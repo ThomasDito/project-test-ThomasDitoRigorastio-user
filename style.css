@@ -1,0 +1,99 @@
+html{
+    background-color: white;
+}
+
+@media (min-width: 1200px)
+{
+    .container
+    {
+        max-width: 970px;
+    }
+}
+
+#logo img
+{
+    width: 80px;
+}
+
+#banner img
+{
+    border-radius: 20px;
+}
+
+#highlight img
+{
+    border-radius: 20px;
+}
+
+#highlight #img1 img
+{
+    font-size: 50px;
+    padding: 10px;
+    transition: all 0.5s;
+}
+
+#highlight #img1 img:hover
+{
+    opacity: 0.5;
+    background-color: rgb(182, 182, 182);
+    border-radius: 10px;
+    transition: background-color 0.5s;
+}
+
+#banner1 img
+{
+    border-radius: 20px;
+}
+
+#client img
+{
+    width: 150px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+#client img:hover
+{
+    opacity: 0.5;
+    width: 170px;
+}
+
+.testi
+{
+    background-color: grey;
+    border-radius: 20px;
+    height: 300px;
+}
+
+.testi img
+{
+    width: 100px;
+    border-radius: 60px;
+    padding-top: 20px;
+}
+
+.emailbox {
+    background-color: plum;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+}
+li {
+    list-style: none;
+}
+
+.footer p{
+    color: rgb(153, 153, 153);
+    font-size: 20px;
+}
+
+.footer img:hover
+{
+    width: 100px;
+    opacity: 0.5;
+}
+
